@@ -18,7 +18,7 @@ function Skills() {
     <div
       ref={ref}
       id="skills"
-      className="w-full h-screen relative bg-primary flex justify-center items-center"
+      className="w-full h-[450px] md:h-screen relative bg-primary flex justify-center items-center"
     >
       <StarsCanvas number={3003} size={0.003} />
       <Container className="overflow-hidden">
