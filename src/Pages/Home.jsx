@@ -16,7 +16,7 @@ function Home() {
     <>
       <div
         id="home"
-        className="w-full h-[600px] md:h-screen bg-hero-pattern bg-cover bg-no-repeat bg-center"
+        className="w-full h-[500px] md:h-screen bg-hero-pattern bg-cover bg-no-repeat bg-center"
       >
         <Container className="w-full h-screen">
           <section
