@@ -6,7 +6,7 @@ import programingwithjs from "../assets/programingwithjs.png";
 import frontend from "../assets/Frontend.png";
 import discordbot from "../assets/discordbot.png";
 import versioncontrol from "../assets/versioncontrol.png";
-import sitelogo from "../assets/sitelogo.png";
+import sitelogo from "../assets/Sitelogo.png";
 const Skill_data = [
   {
     skill_name: "Html 5",
