@@ -49,7 +49,7 @@ function ProjectCard({ project }) {
             {project.project_name}
           </h3>
           <h4 className="text-sm text-gray-400 ">
-            <a href={project.github_link}>
+            <a href={project.github_link} target="_blank">
               <img
                 className="w-6 mt-1 md:w-8 rounded-md"
                 src={pencrefLogo2}

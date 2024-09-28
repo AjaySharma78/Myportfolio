@@ -6,6 +6,7 @@ import programingwithjs from "../assets/programingwithjs.png";
 import frontend from "../assets/Frontend.png";
 import discordbot from "../assets/discordbot.png";
 import versioncontrol from "../assets/versioncontrol.png";
+import sitelogo from "../assets/sitelogo.png";
 const Skill_data = [
   {
     skill_name: "Html 5",
@@ -166,6 +167,28 @@ const Skill_data5 = [
 ];
 
 const Projectinfo = [
+  {
+    project_icon: sitelogo,
+    project_name: "My Portfolio",
+    github_link: "https://github.com/AjaySharma78/Myportfolio",
+    project_link: "https://ajaysharma07.vercel.app/",
+    created_date: "2024/09/28",
+    project_desc: [
+      "Personal Portfolio: Showcase your skills, projects, and certifications.",
+      "Responsive Design: Mobile-friendly UI for seamless user experience.",
+      "SEO Optimized: Meta tags and Open Graph for better search engine visibility.",
+      "Future Enhancements: Blog section, contact form, and more projects.",
+    ],
+    skills: [
+      "Html",
+      "Css",
+      "React",
+      "Tailwind Css",
+      "Framer Motion",
+      "Vite",
+      "React-router-dom",
+    ],
+  },
   {
     project_icon: pencrafted,
     project_name: "Pencrafted(Blog Project)",
