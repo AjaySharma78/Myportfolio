@@ -190,6 +190,27 @@ const Projectinfo = [
     ],
   },
   {
+    project_icon: sitelogo,
+    project_name: "Backend Project",
+    github_link: "https://github.com/AjaySharma78/first_backend_project",
+    project_link: "xyz....................",
+    created_date: "2024/11/24",
+    project_desc: [
+      "Personal Portfolio: Showcase your skills, projects, and certifications.",
+      "Responsive Design: Mobile-friendly UI for seamless user experience.",
+      "SEO Optimized: Meta tags and Open Graph for better search engine visibility.",
+      "Future Enhancements: Blog section, contact form, and more projects.",
+    ],
+    skills: [
+      "javaScript",
+      "Node.js",
+      "postman",
+      "mongoDB",
+      "Express.js",
+      "JWT"
+    ],
+  },
+  {
     project_icon: pencrafted,
     project_name: "Pencrafted(Blog Project)",
     github_link: "https://github.com/AjaySharma78/Blog_project",
