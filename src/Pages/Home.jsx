@@ -86,6 +86,7 @@ function Home() {
                             "Web Developer",
                             "React Developer",
                             "Frontend Developer",
+                            "MERN Stack Developer",
                           ],
                           autoStart: true,
                           loop: true,
