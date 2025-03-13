@@ -169,6 +169,33 @@ const Skill_data5 = [
 const Projectinfo = [
   {
     project_icon: sitelogo,
+    project_name: "MERN Stack Project (Video Streaming)",
+    github_link: "https://github.com/AjaySharma78/FullStack_Tube",
+    project_link: "https://full-stack-tube.vercel.app/",
+    created_date: "2025/03/12",
+    project_desc: [
+      "Full-Stack Video Platform: Enables users to upload, manage, and stream videos with a seamless experience.",
+      "Secure Authentication: Implements JWT, OAuth, and MFA for enhanced security and user protection.",
+      "Real-Time Notifications: Uses WebSockets to deliver instant alerts and live updates.",
+      "Scalable Media Management: Supports chunked video uploads to Cloudinary with progress tracking.",
+    ],
+    skills: [
+      "React",
+      "Redux",
+      "Tailwind Css",
+      "Cloudinary",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Vite",
+      "WebSockets",
+      "JWT",
+      "OAuth",
+      "2FA",
+          ],
+  },
+  {
+    project_icon: sitelogo,
     project_name: "My Portfolio",
     github_link: "https://github.com/AjaySharma78/Myportfolio",
     project_link: "https://ajaysharma07.vercel.app/",
@@ -193,7 +220,7 @@ const Projectinfo = [
     project_icon: sitelogo,
     project_name: "Backend Project",
     github_link: "https://github.com/AjaySharma78/first_backend_project",
-    project_link: "xyz....................",
+    project_link: "https://github.com/AjaySharma78/FullStack_Tube/tree/main/backend",
     created_date: "2024/11/24",
     project_desc: [
       "Personal Portfolio: Showcase your skills, projects, and certifications.",
@@ -207,7 +234,9 @@ const Projectinfo = [
       "postman",
       "mongoDB",
       "Express.js",
-      "JWT"
+      "JWT",
+      "OAuth",
+      "2FA",
     ],
   },
   {

@@ -5,7 +5,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { IoCloseSharp } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-import resume from "../../assets/AjaySharmaResume.pdf";
+import resume from "../../assets/AjaySharmaResume (1) (1).pdf";
 import { MdOutlineFileDownload } from "react-icons/md";
 function Navbar() {
   const navigate = useNavigate();
