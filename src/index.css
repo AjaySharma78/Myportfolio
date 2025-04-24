@@ -2,7 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--chat--color-primary: #804dee;
+	--chat--color-primary-shade-50: #804dee;
+	--chat--color-primary-shade-100: #804dee;
+	--chat--color-dark: #1b0746;
+  --chat--color-secondary: #804dee;
+	--chat--color-secondary-shade-50: #804dee8b;
+  --chat--color-light: #804dee8b;
+  --chat--message--font-size: 10px;
+  --chat--spacing: 10px;
 
+}
+.chat-message,.chat-layout{
+  border-radius:25px;
+}
+
+.chat-window-wrapper .chat-window{
+  border: none !important;
+
+}
+
+.chat-window-wrapper .chat-window .chat-layout .chat-header,.chat-window-wrapper .chat-window .chat-layout .chat-heading h1{
+  color: whitesmoke !important;
+}
 .violet-gradient {
     background: #804dee;
     background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);

@@ -1,17 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/Sitelogo.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Ajay Sharma's personal portfolio showcasing skills, projects, education, and certifications in the field of Computer Science and Engineering.">
-    <meta name="keywords" content="Ajay Sharma, portfolio, skills, projects, education, certifications, Computer Science, Engineering">
-    <meta name="author" content="Ajay Sharma">
+    <meta name="description" content="Ajay Sharma's personal portfolio showcasing skills, projects, education, and certifications in the field of Computer Science and Engineering."/>
+    <meta name="keywords" content="Ajay Sharma, portfolio, skills, projects, education, certifications, Computer Science, Engineering"/>
+    <meta name="author" content="Ajay Sharma" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet"/>
     <title>Ajay Sharma.</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <script type="module">
+      import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
+
+      createChat({
+        webhookUrl:
+          "https://ajaysharma.app.n8n.cloud/webhook/853adba1-7981-4afc-a838-6c73b8f167a8/chat",
+        initialMessages: [
+          "Hey it,s me Ajay Sharma bot, I am here to help you.",
+        ],
+        i18n: {
+          en: {
+            title: "Hi there! 👋",
+            subtitle: "Start a chat. I am here to help you 24/7.",
+          },
+        },
+      });
+    </script>
   </body>
 </html>
