@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='min-h-screen flex flex-wrap content-between bg-primary overflow-hidden'>
-      <div className='w-full block overflow-hidden'>
+      <div className='w-full block '>
        <Navbar />
        <main>
          <Outlet />
